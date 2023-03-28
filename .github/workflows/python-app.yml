@@ -47,4 +47,4 @@ jobs:
       - name: Build the Docker image
         run: docker build . --file Dockerfile --tag ghcr.io/kayzz99/tp2:latest
       - name: Push the image into the registry
-        run: docker push ghcr.io/Kayzz99/tp2:latest
+        run: docker push ghcr.io/kayzz99/tp2:latest
